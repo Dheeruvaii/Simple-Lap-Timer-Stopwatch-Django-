@@ -8,7 +8,7 @@ def countdown(h,m,s):
         timer= datetime.timedelta(seconds=total_seconds)
         print('',timer)
         time.sleep(5)
-        total_seconds -=1
+        total_seconds +=2
 
         print("countdown is at zero seconds")
 

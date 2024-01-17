@@ -1,8 +1,8 @@
 import time
 import datetime
 
-my_list=list(range(100000000))
-element=700000
+my_list=list(range(10000000))
+element=20000
 
 start=time.time()
 for i in my_list:
